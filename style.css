@@ -1,43 +1,104 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica , sans-serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
-    
+    margin: 7px auto;
 }
 
-#headerS{
+.headerS{
     background: #ebebeb;
     text-align: center;
+    padding: 2%;
     
 }
 
-#navS{
+.navS{
     background: #ebebeb; 
+    text-align: center;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-#asideS{
+.asideS{
     background: #ebebeb;
+    width: 445px;
+    text-align: center;
+    float: right;
+    height: 100%;
 }
 
-#sectionS{
+.sectionS{
     background: #ebebeb;
     width: 495px;
+    text-align: center;
+    margin-left: 0;
+    height: 97%;
+    position: absolute;
 }
 
-#articleS{
+.articleS{
     color: #ebebeb;
     background: #777;
+    margin: 5px auto;
+    width: 475px;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    height: 66%;
 }
 
+.hBox{
+    height: 25%;
+    width: 90%;
+    background: #ebebeb;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 20px;
+
+}
+
+.pBox{
+    height:25%;
+    width:90%;
+    background: #ebebeb;
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.container{
+
+    padding-top: 1%;
+    align-self: auto;
+    height: 300px;
+    position: relative;
+}
+
+.footerS{
+    background: #ebebeb;
+    text-align: center;
+    padding: 2%;
+    margin-top: 15px;
+}
+
+header {
+    text-align: center;
+    margin: 30px;
+}
 h1 {
     color: #777;
-    background: #ebebeb
+    background: #ebebeb;
 }
 
 p{
     color: #777;
-    background: #ebebeb
+    background: #ebebeb;
+     
 }
 
